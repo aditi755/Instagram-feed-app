@@ -1,0 +1,30 @@
+.header{
+    height: 10vh;
+    background-color:#9c27b0;
+    font-family: 'Source Sans 3, sans-serif';
+}
+
+.category-inner-circle{
+    width: 95px;
+    height: 95px;
+    background: #2196f3;
+    border-radius: 50%;
+}
+
+.category-outer-circle {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background-image: linear-gradient(
+      253deg,/* Specify the gradient direction in degrees */
+      rgba(64, 93, 230, 0.0) 31.1%,
+      rgba(147, 60, 219, 0.79) 51.20%,
+      rgba(206, 70, 147, 0.01) 69.63%,
+      rgba(253, 29, 29, 0.03) 86.15%
+    ); /* The '1' here represents the slice value, you can adjust it as needed */
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+  
+  
