@@ -1,1 +1,1 @@
-# Instagram-StoryFeed-app
+# Instagram-Feed-app
