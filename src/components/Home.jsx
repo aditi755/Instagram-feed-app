@@ -7,7 +7,7 @@ function Home() {
   const navigate = useNavigate();
 
   function redirectStory(categoryItem) {
-    navigate(`./story/${categoryItem.name}`);
+    navigate(`./story/${categoryItem.name.toLowerCase()}`);
   }
 
   function renderCategoryItem() {
